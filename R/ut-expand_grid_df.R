@@ -3,6 +3,7 @@
 #' @description An extension of expand.grid() to expand on two `data.frame`s
 #' @param data_1 first data.frame
 #' @param data_2 second data.frame
+#' @import data.table
 #' @export
 #' @examples
 

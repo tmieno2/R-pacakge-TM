@@ -4,6 +4,7 @@
 #' with geometry information removed. This is much faster than st_intersection().
 #' @param sf_1 An sf object 
 #' @param sf_2 An sf object 
+#' @import data.table
 #' @export
 #' @examples
 
