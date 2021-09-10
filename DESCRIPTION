@@ -8,7 +8,7 @@ Authors@R:
            email = "tmieno2@unl.edu",
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: This package contains functions that I have found myself using repeatedly for my research. 
-URL: "https://github.com/tmieno2/R-pacakge-TM.git"
+URL: "https://github.com/tmieno2/R-pacakge-TM"
 Imports:
     data.table,
     sf,
