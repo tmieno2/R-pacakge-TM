@@ -26,7 +26,7 @@ st_utm <- function(sf_obj) {
     # Get the center longitude in degrees:
     bb <- 
       sf::st_as_sfc(sf::st_bbox(sf_obj)) %>% 
-      sf::st_transform(bb, sf::st_crs(4326))
+      sf::st_transform(sf::st_crs(4326))
 
     # Get UTM Zone from mean longitude:
     utmzone <- long2UTM(mean(sf::st_bbox(bb)[c(1, 3)]))
