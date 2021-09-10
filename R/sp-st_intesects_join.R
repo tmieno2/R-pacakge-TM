@@ -1,6 +1,7 @@
 #' @title st_intersects_join
 #'
-#' @description This function joins the attributes of two sf objects based on st_intesects() with geometry information removed
+#' @description This function joins the attributes of two sf objects based on st_intesects() 
+#' with geometry information removed. This is much faster than st_intersection().
 #' @param sf_1 An sf object 
 #' @param sf_2 An sf object 
 #' @export
